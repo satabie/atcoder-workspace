@@ -6,4 +6,9 @@ using namespace std;
 using vi = vector<int>;
 using vii = vector<vi>;
 
-int main() { return 0; }
+int main() {
+  int s, t;
+  cin >> s >> t;
+  cout << t - s + 1 << endl;
+  return 0;
+}
